@@ -1,0 +1,54 @@
+{
+  "name": "nelson-cloud",
+  "version": "0.1.0",
+  "description": "nelson on the cloud",
+  "copyright": "Copyright © 2018 Allan CORNET",
+  "main": "main.js",
+  "author": {
+    "name": "Allan CORNET",
+    "email": "nelson.numerical.computation@gmail.com",
+    "url": "https://nelson-numerical-software.github.io/nelson-website/"
+  },
+  "license": "GPL-2.0",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "prettier": "prettier --write \"**/*.js\"",
+    "jest": "jest .",
+    "test": "jest .",
+    "coverage": "npm run jest -- --coverage",
+    "testw": "npm run jest -- --watch",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nelson-numerical-software/nelson-cloud.git"
+  },
+  "keywords": [
+    "matrix-functions",
+    "interpreter",
+    "scientific-computing",
+    "programming-language"
+  ],
+  "bugs": {
+    "url": "https://github.com/Nelson-numerical-software/nelson-cloud/issues"
+  },
+  "homepage": "https://github.com/Nelson-numerical-software/nelson-cloud#README.md",
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-plugin-jest": "21.17.0",
+    "jest": "23.1.0",
+    "prettier": "1.13.4"
+  },
+  "dependencies": {
+    "express": "4.16.3",
+    "highlight": "0.2.4",
+    "socket.io": "2.1.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}

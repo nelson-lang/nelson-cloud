@@ -1,0 +1,16 @@
+<!doctype html>  
+<html lang="en">  
+    <head>
+        <title>Nelson on the cloud</title>
+    </head>
+    <script>
+        function onButtonRun() {
+            var command = document.getElementById('command').value;
+        }
+    </script>  
+    <body>
+        <pre><code class = "matlab" id='replies'></code></pre>
+        <textarea id='command' style="font-family: Arial;font-size: 12pt;width:100%"></textarea>
+        <input type="button" value="Run" onclick="onButtonRun();";>
+    </body>
+</html>  
