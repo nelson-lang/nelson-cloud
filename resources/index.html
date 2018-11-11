@@ -1,16 +1,39 @@
-<!doctype html>  
-<html lang="en">  
-    <head>
-        <title>Nelson on the cloud</title>
-    </head>
-    <script>
-        function onButtonRun() {
-            var command = document.getElementById('command').value;
-        }
-    </script>  
-    <body>
-        <pre><code class = "matlab" id='replies'></code></pre>
-        <textarea id='command' style="font-family: Arial;font-size: 12pt;width:100%"></textarea>
-        <input type="button" value="Run" onclick="onButtonRun();";>
-    </body>
-</html>  
+<!DOCTYPE html>
+<!--
+//=============================================================================
+// Copyright (c) 2016-2018 Allan CORNET (Nelson)
+//=============================================================================
+// LICENCE_BLOCK_BEGIN
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 2 of the License, or
+// (at your option) any later version.
+// 
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+// 
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+// LICENCE_BLOCK_END
+//=============================================================================
+-->
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Nelson on cloud</title>
+    <!-- public interface version -->
+    <link rel = 'stylesheet' type = 'text/css' href = 'styles.css' />
+  </head>
+  <body>
+    <div id='mainDiv' class='hidden'>
+      <pre><code class = 'nelson' id='replies'></code></pre>
+      <textarea id='command' autofocus></textarea>
+      <input id='evaluateButton' type='button' value='Evaluate' onclick='onEvaluateButton();';>
+      <input id='stopButton' type='button' value='Stop' onclick='onStopButton();';>
+    </div>
+    <script src='/socket.io/socket.io.js'></script>
+    <script type='text/javascript' src='code.js'></script>
+  </body>
+</html>

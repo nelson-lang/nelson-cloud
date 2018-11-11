@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    background-color: black;
+}
+
+code {
+    font-family: monospace;
+    font-size:12px;
+    width:100%;
+    color: white;
+    background-color: black;
+}
+
+textarea {
+    font-family: monospace;
+    font-size:12px;
+    height: 4em;
+    width:100%;
+    color: white;
+    background-color: black;
+    border: 1;
+}
+
+div {
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    background-color: black;
+}
+
+.hidden {
+    display:none;
+}
