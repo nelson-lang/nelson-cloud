@@ -18,7 +18,8 @@
     "coverage": "npm run jest -- --coverage",
     "testw": "npm run jest -- --watch",
     "preversion": "npm test",
-    "start": "node main.js"
+    "start": "node main.js",
+    "dockerInstall": "docker pull nelsonsoftware/nelson-sio-cli:latest"
   },
   "repository": {
     "type": "git",
