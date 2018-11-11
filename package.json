@@ -49,9 +49,6 @@
     "socket.io": "2.1.1",
     "child_process": "1.0.2",
     "find-free-port": "2.0.0",
-    "get-port": "4.0.0",
-    "get-port-sync": "1.0.0",
-    "http": "0.0.0",
     "ip": "1.1.5"
   },
   "jest": {
