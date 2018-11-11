@@ -4,7 +4,7 @@
     "LOCALHOST_IP": "http://127.0.0.1",
     "MIN_NELSON_PORT": 10000,
     "MAX_NELSON_PORT": 20000,
-    "USE_DOCKER": false,
+    "USE_DOCKER": true,
     "NELSON_APPLICATION": "D:/Developpements/github/nelson/bin/x64/nelson-sio-cli.exe",
     "NELSON_APPLICATION_PARAMETERS": ["--socketio"],
     "DOCKER": "docker",

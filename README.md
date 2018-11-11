@@ -6,12 +6,34 @@ nelson on the cloud
 
 ## Introduction
 
- Nelson available as an online service. 
+ Nelson available as an online service.
+
+ Deploy easily your own server and custom it. 
 
 ## Installation
 
+Install docker image.
+
+```bash
+docker pull nelsonsoftware/nelson-sio-cli
+```
+
+and install package
+
 ```bash
 npm install
+```
+
+Start application:
+
+```bash
+npm start
+```
+
+open your web brower and open url:
+
+```bash
+http://localhost:9090
 ```
 
 ## Development
