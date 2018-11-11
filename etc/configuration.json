@@ -5,8 +5,8 @@
     "MIN_NELSON_PORT": 10000,
     "MAX_NELSON_PORT": 20000,
     "USE_DOCKER": true,
-    "NELSON_APPLICATION": "D:/Developpements/github/nelson/bin/x64/nelson-sio-cli.exe",
+    "NELSON_APPLICATION": "nelson-sio-cli",
     "NELSON_APPLICATION_PARAMETERS": ["--socketio"],
     "DOCKER": "docker",
-    "DOCKER_PARAMETERS": ["run", "-t", "nelson-sio-cli", "--socketio"]
+    "DOCKER_PARAMETERS": ["run", "-t", "nelsonsoftware/nelson-sio-cli", "--socketio"]
 }
