@@ -15,7 +15,7 @@ nelson on the cloud
 Install docker image.
 
 ```bash
-docker pull nelsonsoftware/nelson-sio-cli
+npm run dockerInstall
 ```
 
 and install package
@@ -38,13 +38,13 @@ http://localhost:9090
 
 ## Development
 
-Start application:
+Start application in a console:
 
 ```bash
 npm start
 ```
 
-Run tests:
+Run tests in another console:
 
 ```bash
 npm test
