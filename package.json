@@ -39,13 +39,10 @@
     "eslint": "4.19.1",
     "eslint-plugin-jest": "21.17.0",
     "prettier": "1.13.4",
-    "expect": "23.6.0",
-    "expect.js": "0.3.1",
     "jest": "23.6.0"
   },
   "dependencies": {
     "express": "4.16.3",
-    "highlight": "0.2.4",
     "socket.io": "2.1.1",
     "child_process": "1.0.2",
     "find-free-port": "2.0.0",
