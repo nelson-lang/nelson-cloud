@@ -1,9 +1,11 @@
 
-# nelson-cloud
+# ☁️nelson-cloud
 [![Build Status](https://travis-ci.org/Nelson-numerical-software/nelson-cloud.svg?branch=master)](https://travis-ci.org/Nelson-numerical-software/nelson-cloud)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![GitHub license](https://img.shields.io/badge/license-GPL2-blue.svg)](https://github.com/Nelson-numerical-software/nelson-cloud/blob/master/COPYING.md)
 [![CLA assistant](https://cla-assistant.io/readme/badge/Nelson-numerical-software/nelson-cloud)](https://cla-assistant.io/Nelson-numerical-software/nelson-cloud)
+[![npm version](https://badge.fury.io/js/nelson-cloud.svg)](https://badge.fury.io/js/nelson-cloud)
+[![Known Vulnerabilities](https://snyk.io/test/github/Nelson-numerical-software/nelson-cloud/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Nelson-numerical-software/nelson-cloud?targetFile=package.json)
 
 nelson on the cloud
 
