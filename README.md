@@ -19,22 +19,16 @@ nelson on the cloud
 
 ## Installation
 
-Install docker image.
+Nelson-cloud can be installed as global or locally as npm package
+
+As prerequirements, you need to install docker and run command:
 
 ```bash
-npm run dockerInstall
+docker pull nelsonsoftware/nelson-sio-cli:latest
 ```
 
-and install package
-
 ```bash
-npm install
-```
-
-Start application:
-
-```bash
-npm start
+npm install -g nelson-cloud
 ```
 
 open your web brower and open url:
@@ -44,6 +38,16 @@ http://localhost:9090
 ```
 
 ## Development
+
+clone current repository
+
+```bash
+npm run dockerInstall
+```
+
+```bash
+npm install
+```
 
 Start application in a console:
 

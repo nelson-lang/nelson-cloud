@@ -1,9 +1,12 @@
 {
   "name": "nelson-cloud",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "nelson on the cloud",
   "copyright": "Copyright © 2018 Allan CORNET",
-  "main": "main.js",
+  "main": "./main.js",
+  "bin": {
+    "nelson-cloud": "./main.js"
+  },
   "author": {
     "name": "Allan CORNET",
     "email": "nelson.numerical.computation@gmail.com",
