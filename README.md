@@ -31,6 +31,10 @@ docker pull nelsonsoftware/nelson-sio-cli:latest
 npm install -g nelson-cloud
 ```
 
+```bash
+nelson-cloud
+```
+
 open your web brower and open url:
 
 ```bash
