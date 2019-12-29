@@ -1,7 +1,6 @@
 ## 1.2.0 (2019-12-29)
 
  * backspace character correctly managed.
-
  * update dependencies
 
 
