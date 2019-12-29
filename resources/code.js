@@ -61,7 +61,20 @@ function main(socket) {
   socket.on('reply', function(data) {
     var div = document.getElementById('replies');
     var str = data.output.replace('\r\n', '\n');
-    div.textContent += str;
+    if (str.includes('\b')) {
+      for (var i = 0; i < str.length; i++) {
+        div.textContent += str.charAt(i);
+        if (str.charAt(i) === '\b') {
+          div.textContent = div.textContent.substring(
+            0,
+            div.textContent.length - 2
+          );
+        }
+      }
+    } else {
+      div.textContent += str;
+    }
+
     window.scrollTo(0, document.body.scrollHeight);
   });
   //=============================================================================

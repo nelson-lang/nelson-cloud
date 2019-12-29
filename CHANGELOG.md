@@ -1,3 +1,10 @@
+## 1.2.0 (2019-12-29)
+
+ * backspace character correctly managed.
+
+ * update dependencies
+
+
 ## 1.1.1 (2018-11-26)
 
  * npm install -g fixed (unix)
