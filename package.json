@@ -40,9 +40,9 @@
   "homepage": "https://github.com/Nelson-numerical-software/nelson-cloud#README.md",
   "devDependencies": {
     "eslint": "7.10.0",
-    "eslint-plugin-jest": "24.0.2",
+    "eslint-plugin-jest": "23.1.1",
     "prettier": "2.1.2",
-    "jest": "26.4.2"
+    "jest": "24.9.0"
   },
   "dependencies": {
     "express": "4.17.1",
