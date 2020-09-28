@@ -25,7 +25,7 @@ function main(socket) {
   document.getElementById('evaluateButton').disabled = true;
   document.getElementById('stopButton').disabled = true;
   //=============================================================================
-  socket.on('initialization', function() {
+  socket.on('initialization', function () {
     const div = document.getElementById('replies');
     div.textContent = '';
     document.getElementById('evaluateButton').disabled = true;
@@ -33,32 +33,32 @@ function main(socket) {
     element.style.visibility = 'visible';
   });
   //=============================================================================
-  socket.on('clc', function() {
+  socket.on('clc', function () {
     var div = document.getElementById('replies');
     div.textContent = '';
   });
   //=============================================================================
-  socket.on('available', function() {
+  socket.on('available', function () {
     element.style.display = 'block';
     document.getElementById('evaluateButton').disabled = false;
     document.getElementById('stopButton').disabled = true;
   });
   //=============================================================================
-  socket.on('unavailable', function() {
+  socket.on('unavailable', function () {
     document.getElementById('evaluateButton').disabled = true;
     document.getElementById('stopButton').disabled = false;
   });
   //=============================================================================
-  socket.on('help', function(url) {
+  socket.on('help', function (url) {
     if (url !== undefined) {
       Object.assign(document.createElement('a'), {
         target: '_blank',
-        href: url
+        href: url,
       }).click();
     }
   });
   //=============================================================================
-  socket.on('reply', function(data) {
+  socket.on('reply', function (data) {
     var div = document.getElementById('replies');
     var str = data.output.replace('\r\n', '\n');
     if (str.includes('\b')) {
@@ -78,14 +78,14 @@ function main(socket) {
     window.scrollTo(0, document.body.scrollHeight);
   });
   //=============================================================================
-  socket.on('send_variable', function(data) {
+  socket.on('send_variable', function (data) {
     const type = 'text/plain;charset=utf-8';
     var obj = JSON.parse(data);
     const filename = 'nelson-result-' + obj.name + '.json';
     download(data, filename, type);
   });
   //=============================================================================
-  socket.on('quit', function() {});
+  socket.on('quit', function () {});
 }
 //=============================================================================
 function onStopButton() {
@@ -117,7 +117,7 @@ function download(data, filename, type) {
     a.download = filename;
     document.body.appendChild(a);
     a.click();
-    setTimeout(function() {
+    setTimeout(function () {
       document.body.removeChild(a);
       window.URL.revokeObjectURL(url);
     }, 0);
