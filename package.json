@@ -15,7 +15,7 @@
   "license": "GPL-2.0",
   "scripts": {
     "lint": "eslint --fix .",
-    "prettier": "prettier --write \"**/*.js\"",
+    "prettier": "prettier --write **/*.{js,md}",
     "jest": "jest .",
     "test": "jest .",
     "coverage": "npm run jest -- --coverage",
@@ -39,14 +39,14 @@
   },
   "homepage": "https://github.com/Nelson-numerical-software/nelson-cloud#README.md",
   "devDependencies": {
-    "eslint": "7.10.0",
+    "eslint": "7.17.0",
     "eslint-plugin-jest": "23.1.1",
-    "prettier": "2.1.2",
+    "prettier": "2.2.1",
     "jest": "24.9.0"
   },
   "dependencies": {
     "express": "4.17.1",
-    "socket.io": "3.0.0",
+    "socket.io": "3.0.5",
     "child_process": "1.0.2",
     "find-free-port": "2.0.0",
     "ip": "1.1.5"
