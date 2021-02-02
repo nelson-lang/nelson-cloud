@@ -1,9 +1,10 @@
 ## 1.3.0 (UNRELEASED)
 
 - update to Socket.IO v3.1 (requires Nelson >= v5.1)
-- require Node.js 12.20.1
-- update other dependencies
-- prettier
+- require Node.js 114.15.4
+- update other dependencies.
+- prettier markdown.
+- move to GitHub CI.
 
 ## 1.2.1 (2020-09-29)
 
