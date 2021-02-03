@@ -1,6 +1,6 @@
 {
   "name": "nelson-cloud",
-  "version": "1.3.0-dev.1",
+  "version": "1.3.0",
   "description": "nelson on the cloud",
   "copyright": "Copyright © 2018-present Allan CORNET",
   "main": "./main.js",

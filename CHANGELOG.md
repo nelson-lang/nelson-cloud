@@ -1,4 +1,4 @@
-## 1.3.0 (UNRELEASED)
+## 1.3.0 (2021-02-03)
 
 - update to Socket.IO v3.1 (requires Nelson >= v5.1)
 - require Node.js 114.15.4
