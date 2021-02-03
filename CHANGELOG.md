@@ -1,7 +1,7 @@
 ## 1.3.0 (2021-02-03)
 
-- update to Socket.IO v3.1 (requires Nelson >= v5.1)
-- require Node.js 114.15.4
+- update to Socket.IO v3.1 (requires Nelson >= v0.5.1)
+- require Node.js 14.15.4
 - update other dependencies.
 - prettier markdown.
 - move to GitHub CI.
