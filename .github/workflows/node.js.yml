@@ -1,20 +1,11 @@
 name: Node.js CI
-
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
-
+on: [push]
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [14.15.4]
-
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
@@ -22,5 +13,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm run dockerInstall
+    - run: npm install
     - run: npm run start &
+    - run: npm test
     - run: npm pack
+    - run: mkdir /home/runner/work/nelson-cloud/nelson-cloud/artifacts
+    - run: cp  /home/runner/work/nelson-cloud/nelson-cloud/nelson-cloud-*.tgz /home/runner/work/nelson-cloud/nelson-cloud/artifacts
+    - uses: actions/upload-artifact@v1
+      with:
+        name: nelson-cloud-github-action-artifacts
+        path: artifacts/

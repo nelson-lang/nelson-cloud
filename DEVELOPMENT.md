@@ -51,4 +51,3 @@ Run tests in another console:
 ```bash
 npm test
 ```
-
