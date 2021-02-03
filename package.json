@@ -48,6 +48,7 @@
   "dependencies": {
     "child_process": "1.0.2",
     "express": "4.17.1",
+    "express-rate-limit": "5.2.3",
     "find-free-port": "2.0.0",
     "ip": "1.1.5",
     "socket.io": "3.1.0",
