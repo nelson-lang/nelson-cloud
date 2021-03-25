@@ -1,6 +1,6 @@
 {
   "name": "nelson-cloud",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "nelson on the cloud",
   "copyright": "Copyright © 2018-present Allan CORNET",
   "main": "./main.js",
@@ -51,8 +51,8 @@
     "express-rate-limit": "5.2.3",
     "find-free-port": "2.0.0",
     "ip": "1.1.5",
-    "socket.io": "3.1.0",
-    "socket.io-client": "3.1.0"
+    "socket.io": "4.0.0",
+    "socket.io-client": "4.0.0"
   },
   "jest": {
     "testPathIgnorePatterns": [

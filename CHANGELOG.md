@@ -1,3 +1,6 @@
+## 1.4.0 (UNRELEASED)
+- update to Socket.IO v4.0 (requires Nelson >= v0.5.3)
+
 ## 1.3.0 (2021-02-03)
 
 - update to Socket.IO v3.1 (requires Nelson >= v0.5.1)
