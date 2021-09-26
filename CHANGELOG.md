@@ -2,6 +2,7 @@
 
 - fix test with Nelson >=v0.5.8
 - require Node.js 14.17.6
+- update to Socket.IO v4.0 
 
 ## 1.4.0 (2021-03-25)
 
