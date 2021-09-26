@@ -1,3 +1,8 @@
+## 1.4.1 (UNRELEASED)
+
+- fix test with Nelson >=v0.5.8
+- require Node.js 14.17.6
+
 ## 1.4.0 (2021-03-25)
 
 - update to Socket.IO v4.0 (requires Nelson >= v0.5.3)
