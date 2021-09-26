@@ -1,4 +1,4 @@
-## 1.4.1 (UNRELEASED)
+## 1.4.1 (2021-09-26)
 
 - fix test with Nelson >=v0.5.8
 - require Node.js 14.17.6
