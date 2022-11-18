@@ -1,3 +1,11 @@
+## 1.4.2 (2022-11-18)
+
+- Update packages dependencies
+
+- Tested with Nelson 0.6.10
+
+- Requires Nodejs 18.12.1
+
 ## 1.4.1 (2021-09-26)
 
 - fix test with Nelson >=v0.5.8

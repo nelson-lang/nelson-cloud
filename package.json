@@ -1,6 +1,6 @@
 {
   "name": "nelson-cloud",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "nelson on the cloud",
   "copyright": "Copyright © 2018-present Allan CORNET",
   "main": "./main.js",
@@ -40,19 +40,19 @@
   },
   "homepage": "https://github.com/Nelson-numerical-software/nelson-cloud#README.md",
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-plugin-jest": "24.4.2",
-    "prettier": "2.4.1",
-    "jest": "26.6.3"
+    "eslint": "8.27.0",
+    "eslint-plugin-jest": "27.1.5",
+    "prettier": "2.7.1",
+    "jest": "29.3.1"
   },
   "dependencies": {
     "child_process": "1.0.2",
-    "express": "4.17.1",
-    "express-rate-limit": "5.3.0",
+    "express": "4.18.2",
+    "express-rate-limit": "6.7.0",
     "find-free-port": "2.0.0",
-    "ip": "1.1.5",
-    "socket.io": "4.2.0",
-    "socket.io-client": "4.2.0"
+    "ip": "1.1.8",
+    "socket.io": "4.5.3",
+    "socket.io-client": "4.5.3"
   },
   "jest": {
     "testPathIgnorePatterns": [
