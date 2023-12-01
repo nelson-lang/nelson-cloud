@@ -1,11 +1,11 @@
 # ☁️nelson-cloud
 
-![Build Status](https://github.com/Nelson-numerical-software/nelson-cloud/workflows/Node.js%20CI/badge.svg)
+![Build Status](https://github.com/nelson-lang/nelson-cloud/workflows/Node.js%20CI/badge.svg)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![GitHub license](https://img.shields.io/badge/license-GPL2-blue.svg)](https://github.com/Nelson-numerical-software/nelson-cloud/blob/master/COPYING.md)
-[![CLA assistant](https://cla-assistant.io/readme/badge/Nelson-numerical-software/nelson-cloud)](https://cla-assistant.io/Nelson-numerical-software/nelson-cloud)
+[![GitHub license](https://img.shields.io/badge/license-GPL2-blue.svg)](https://github.com/nelson-lang/nelson-cloud/blob/master/COPYING.md)
+[![CLA assistant](https://cla-assistant.io/readme/badge/nelson-lang/nelson-cloud)](https://cla-assistant.io/nelson-lang/nelson-cloud)
 [![npm version](https://badge.fury.io/js/nelson-cloud.svg)](https://badge.fury.io/js/nelson-cloud)
-[![Known Vulnerabilities](https://snyk.io/test/github/Nelson-numerical-software/nelson-cloud/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Nelson-numerical-software/nelson-cloud?targetFile=package.json)
+[![Known Vulnerabilities](https://snyk.io/test/github/nelson-lang/nelson-cloud/badge.svg?targetFile=package.json)](https://snyk.io/test/github/nelson-lang/nelson-cloud?targetFile=package.json)
 
 nelson on the cloud
 

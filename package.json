@@ -10,7 +10,7 @@
   "author": {
     "name": "Allan CORNET",
     "email": "nelson.numerical.computation@gmail.com",
-    "url": "https://nelson-numerical-software.github.io/nelson-website/"
+    "url": "https://nelson-lang.github.io/nelson-website/"
   },
   "license": "GPL-2.0",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nelson-numerical-software/nelson-cloud.git"
+    "url": "git+https://github.com/nelson-lang/nelson-cloud.git"
   },
   "keywords": [
     "matrix-functions",
@@ -36,9 +36,9 @@
     "programming-language"
   ],
   "bugs": {
-    "url": "https://github.com/Nelson-numerical-software/nelson-cloud/issues"
+    "url": "https://github.com/nelson-lang/nelson-cloud/issues"
   },
-  "homepage": "https://github.com/Nelson-numerical-software/nelson-cloud#README.md",
+  "homepage": "https://github.com/nelson-lang/nelson-cloud#README.md",
   "devDependencies": {
     "eslint": "8.27.0",
     "eslint-plugin-jest": "27.1.5",
