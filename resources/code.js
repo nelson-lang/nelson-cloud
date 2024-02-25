@@ -67,7 +67,7 @@ function main(socket) {
         if (str.charAt(i) === '\b') {
           div.textContent = div.textContent.substring(
             0,
-            div.textContent.length - 2
+            div.textContent.length - 2,
           );
         }
       }

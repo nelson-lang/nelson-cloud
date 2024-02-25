@@ -1,3 +1,11 @@
+## 1.4.3 (2024-02-25)
+
+- Update packages dependencies
+
+- Tested with Nelson 1.2.0
+
+- Requires Nodejs 20.11.1 LTS
+
 ## 1.4.2 (2022-11-18)
 
 - Update packages dependencies
