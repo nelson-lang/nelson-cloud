@@ -4,7 +4,7 @@
 
 - Tested with Nelson 1.2.0
 
-- Requires Nodejs 20.9.0 LTS
+- Requires Nodejs 20.11.1 LTS
 
 ## 1.4.2 (2022-11-18)
 
