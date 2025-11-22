@@ -1,4 +1,4 @@
-name: "CodeQL analysis (JavaScript+Python)"
+name: "CodeQL analysis (JavaScript)"
 
 on:
   push:
@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ["javascript", "python"]
+        language: ["javascript"]
 
     steps:
       - name: Checkout repository
