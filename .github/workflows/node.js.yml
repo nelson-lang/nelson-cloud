@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [22.12.0]
+        node-version: [22.14.0]
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm run dockerInstall
@@ -19,7 +19,7 @@ jobs:
     - run: npm pack
     - run: mkdir /home/runner/work/nelson-cloud/nelson-cloud/artifacts
     - run: cp  /home/runner/work/nelson-cloud/nelson-cloud/nelson-cloud-*.tgz /home/runner/work/nelson-cloud/nelson-cloud/artifacts
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v5
       with:
         name: nelson-cloud-github-action-artifacts
         path: artifacts/

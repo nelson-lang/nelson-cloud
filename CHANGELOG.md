@@ -1,3 +1,13 @@
+## 1.4.5 (2025-11-22)
+
+- Refreshed development and production dependencies.
+- Modernized the codebase with const usage, arrow functions, and centralized message routing.
+- Added strengthened error handling.
+- Upgraded GitHub Actions workflows.
+- Reworked unit tests.
+- Tested with Nelson 1.15.0.
+- Requires Node.js 22.14.0.
+
 ## 1.4.4 (2024-12-14)
 
 - Update packages dependencies
