@@ -2,6 +2,8 @@
 
 - Update packages dependencies
 
+- unit tests reworked
+
 - Tested with Nelson 1.10.0
 
 - Requires Nodejs 22.14.0
