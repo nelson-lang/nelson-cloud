@@ -54,7 +54,6 @@ $ git commit
 The commit message should describe what changed and why.
 
 1. The first line should:
-
    - contain a short description of the change
    - be 50 characters or less
    - be entirely in lowercase with the exception of proper nouns, acronyms, and
