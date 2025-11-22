@@ -27,7 +27,7 @@ Nelson Cloud brings the power of Nelson numerical computation software to your w
 
 Before installation, ensure you have:
 
-- Node.js 22.12.0 or higher
+- Node.js 22.14.0 or higher
 - Docker installed and running
 - A modern web browser
 
